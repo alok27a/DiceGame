@@ -16,11 +16,12 @@ if(a>ran2)
 {
     document.querySelector(".main").innerHTML="Player 1 wins";
 }
-if(a===ran2){
-    document.querySelector(".main").innerHTML="Tie";
+if(a<ran2){
+    document.querySelector(".main").innerHTML="Player 2 wins";
+
 }
 else{
-    document.querySelector(".main").innerHTML="Player 2 wins";
+        document.querySelector(".main").innerHTML="Tie";
 }
 
 
