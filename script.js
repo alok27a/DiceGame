@@ -14,7 +14,7 @@ document.querySelector(".img2").setAttribute("src", imgSrc2);
 if (ran1 ==ran2) {
     document.querySelector("h1").innerHTML = "Draw!";
 }
-if (ran1 < ran2) {
+else if (ran1 < ran2) {
   document.querySelector("h1").innerHTML = "Player 2 wins🚩";
 } else {
     document.querySelector("h1").innerHTML="🚩Player 1 wins";
